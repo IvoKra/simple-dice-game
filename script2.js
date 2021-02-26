@@ -48,7 +48,7 @@ const holdScore = () => {
       `current--${activePlayer}`
     ).textContent = currentScore;
     //switch player after hold
-    if (scores[activePlayer] < 20) {
+    if (scores[activePlayer] < 100) {
       switchPlayer();
       //player wins after hold
     } else {
